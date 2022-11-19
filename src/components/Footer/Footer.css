@@ -1,0 +1,32 @@
+.footer {
+  height: 300px;
+  text-align: center;
+  background-color: #181818;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: #8D8D8D;
+}
+
+.footer > .footer__items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+.footer > .footer__items > a {
+  text-decoration: none;
+  padding: 0 10px;
+  color: #fff
+}
+
+.footer > .footer__items > a:hover {
+  color: gray;
+}
+
+.footer > img {
+  height: 80px;
+}

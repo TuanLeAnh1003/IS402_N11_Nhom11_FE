@@ -1,0 +1,42 @@
+.ticket {
+  width: 1200px;
+  margin: 20px auto 40px;
+}
+
+.ticket > .ticket__title {
+  color: #2D86BE;
+  margin-top: 20px;
+}
+
+.ticket > p:nth-child(5) {
+  margin: 40px 0;
+}
+
+.ticket > img {
+  object-fit: contain;
+  width: 100%;
+}
+
+.ticket > .ticket__inputs {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.ticket > .ticket__inputs > input {
+  width: 30%;
+  height: 55px;
+  background-color: #F3F3F3;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  padding-left: 10px;
+}
+
+.ticket > button {
+  width: 200px;
+  height: 50px;
+  background-color: #181818;
+  border-radius: 8px;
+  color: #fff;
+}

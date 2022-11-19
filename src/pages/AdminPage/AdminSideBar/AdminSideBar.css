@@ -1,0 +1,77 @@
+.ad-sidebar {
+  background-color: rgba(186,187,194,0.49);  
+  width: 200px;
+  height: 680px;
+}
+
+.ad-sidebar__info {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.ad-sidebar__info > h4 {
+  font-size: 25px;
+}
+
+.ad-sidebar__info > img {
+  object-fit: cover;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.ad-sidebar__items {
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.ad-sidebar__items > a {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.ad-sidebar__items > a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.22);
+}
+
+.ad-sidebar__items > a > svg {
+  font-size: 28px;
+  width: 40%;
+}
+
+.ad-sidebar__items > a > p {
+  font-size: 20px;
+  width: 60%;
+}
+
+.ad-sidebar__items > li:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 4px 0 #ccc;
+}
+
+.ad-sidebar__items > .ad-sidebar__line {
+  width: 100%;
+  height: 5px;
+  background-color: #D7CECB;
+  padding: 0;
+}
+
+
+.ad-sidebar__items > li > svg {
+  font-size: 28px;
+}
+
+.ad-sidebar__items > li > p {
+  font-size: 20px;
+  width: 70%;
+  text-align: left;
+}

@@ -1,0 +1,42 @@
+.trans {
+    margin-left: 100px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.trans__item {
+    margin-left: 100px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    width: 800px;
+}
+
+.trans__item > img {
+    width: 70px;
+    height: 70px;
+}
+
+.trans__item > div {
+    margin-left: 50px;
+    flex: 1;
+}
+
+.trans__item > div > h4,
+.trans__item > div > p  {
+    margin-bottom: 0;
+}
+
+.trans__item > span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.trans__item > span > p {
+    font-weight: bold;
+    font-size: 30px;
+}
+

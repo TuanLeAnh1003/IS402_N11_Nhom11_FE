@@ -1,0 +1,20 @@
+.news {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 10% auto;
+}
+
+.news.reverse {
+  flex-flow: row-reverse;
+}
+
+.news > img, 
+.news > .news__des {
+  width: 50%;
+}
+
+.news > .news__des {
+  padding: 0 20px;
+}
