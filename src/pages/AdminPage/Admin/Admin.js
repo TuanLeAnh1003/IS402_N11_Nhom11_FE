@@ -4,6 +4,7 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import Transaction from '../Transaction/Transaction';
 import AdminProfile from '../AdminProfile/AdminProfile';
 import AdminSideBar from '../AdminSideBar/AdminSideBar';
+import UpdateCoordinates from '../UpdateCoordinates/UpdateCoordinates';
 
 function Admin() {
   return (
@@ -14,6 +15,7 @@ function Admin() {
           <Routes>
             <Route path='/' element={<AdminProfile />} />
             <Route path="/transaction" element={<Transaction />} />
+            <Route path="/update-coordinates" element={<UpdateCoordinates />} />
           </Routes>
         </div>
       </div>

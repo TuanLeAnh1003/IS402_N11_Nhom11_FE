@@ -15,11 +15,15 @@ function AdminSideBar() {
       <div className="ad-sidebar__items">
         <Link to="/admin">
           <FontAwesomeIcon icon={solid("id-card")} />
-          <p>Tài khoản</p>
+          <p style={{ marginBottom: 0 }}>Tài khoản</p>
         </Link>
         <Link to="/admin/transaction">
           <FontAwesomeIcon icon={solid("folder-open")} />
-          <p>Lịch sử</p>
+          <p style={{ marginBottom: 0 }}>Lịch sử</p>
+        </Link>
+        <Link to="/admin/update-coordinates">
+          <FontAwesomeIcon icon={solid("pen")} />
+          <p style={{ marginBottom: 0 }}>Cập nhật tọa độ</p>
         </Link>
       </div>
     </div>
