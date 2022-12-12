@@ -18,3 +18,7 @@
   justify-content: space-between;
   height: 88%;
 }
+
+.admin-wrapper > .admin__col {
+  width: 80%;
+}

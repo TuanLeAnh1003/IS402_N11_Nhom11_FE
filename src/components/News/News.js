@@ -7,14 +7,9 @@ function News({ isReverse }) {
     <div className={isReverse ? "news reverse" : "news"}>
       <img src={img} alt="Nha hat thanh pho" />
       <div className="news__des">
-        <h3>Libero sed iaculis pellentesque</h3>
+        <h3>Nhà hát Thành phố Hồ Chí Minh</h3>
         <p>
-          Quisque auctor est ac velit luctus fermentum. Nulla condimentum,
-          libero sed iaculis pellentesque, massa urna mollis mauris, in egestas
-          sem nisi ac arcu. Nulla facilisi. In sit amet vehicula massa. Nulla
-          facilisi. In sit amet vehicula massa. Nulla facilisi. In sit amet
-          vehicula massa. Nulla facilisi. In sit amet vehicula massa. Nulla
-          facilisi. In sit amet vehicula massa.{" "}
+        Nhà hát Thành phố Hồ Chí Minh (thường được gọi ngắn gọn là Nhà hát Thành phố, tên chính thức là Nhà hát Giao hưởng - Nhạc, Vũ kịch Thành phố Hồ Chí Minh) là một nhà hát có mặt tiền hướng ra Công trường Lam Sơn và đường Đồng Khởi, Quận 1, Thành phố Hồ Chí Minh.
         </p>
       </div>
     </div>

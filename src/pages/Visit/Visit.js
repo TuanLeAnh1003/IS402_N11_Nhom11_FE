@@ -1,6 +1,9 @@
 import React, { useEffect } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import visitPic from "../../assets/imgs/Rectangle 1.png";
+import bg4 from "../../assets/imgs/bg4.jfif";
+import bg5 from "../../assets/imgs/bg5.jfif";
+import bg6 from "../../assets/imgs/bg6.jfif";
 import "bootstrap/dist/css/bootstrap.min.css";
 import News from "../../components/News/News";
 import "./Visit.css";
@@ -14,35 +17,29 @@ function Visit() {
     <div className="visit">
       <Carousel>
         <Carousel.Item interval={1000}>
-          <img className="d-block w-100" src={visitPic} alt="First slide" />
+          <img className="d-block w-100" src={bg4} alt="First slide" />
           <Carousel.Caption>
             <h1>SAIGON OPERA HOUSE</h1>
             <p>
-              In hac habitasse platea dictumst. Morbi ornare metus ex, viverra{" "}
-              <br />
-              sollicitudin ex gravida et. Mauris aliquet vel nisl et efficitur.{" "}
+              Nhà hát Thành phố Hồ Chí Minh (thường được gọi ngắn gọn là Nhà hát Thành phố, tên chính thức là Nhà hát Giao hưởng - Nhạc, Vũ kịch Thành phố Hồ Chí Minh) là một nhà hát có mặt tiền hướng ra Công trường Lam Sơn và đường Đồng Khởi, Quận 1, Thành phố Hồ Chí Minh.
             </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={500}>
-          <img className="d-block w-100" src={visitPic} alt="Second slide" />
+          <img className="d-block w-100" src={bg5} alt="Second slide" />
           <Carousel.Caption>
             <h1>SAIGON OPERA HOUSE</h1>
             <p>
-              In hac habitasse platea dictumst. Morbi ornare metus ex, viverra{" "}
-              <br />
-              sollicitudin ex gravida et. Mauris aliquet vel nisl et efficitur.{" "}
+              Nhà hát Thành phố Hồ Chí Minh (thường được gọi ngắn gọn là Nhà hát Thành phố, tên chính thức là Nhà hát Giao hưởng - Nhạc, Vũ kịch Thành phố Hồ Chí Minh) là một nhà hát có mặt tiền hướng ra Công trường Lam Sơn và đường Đồng Khởi, Quận 1, Thành phố Hồ Chí Minh.
             </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={visitPic} alt="Third slide" />
+          <img className="d-block w-100" src={bg6} alt="Third slide" />
           <Carousel.Caption>
             <h1>SAIGON OPERA HOUSE</h1>
             <p>
-              In hac habitasse platea dictumst. Morbi ornare metus ex, viverra{" "}
-              <br />
-              sollicitudin ex gravida et. Mauris aliquet vel nisl et efficitur.
+              Nhà hát Thành phố Hồ Chí Minh (thường được gọi ngắn gọn là Nhà hát Thành phố, tên chính thức là Nhà hát Giao hưởng - Nhạc, Vũ kịch Thành phố Hồ Chí Minh) là một nhà hát có mặt tiền hướng ra Công trường Lam Sơn và đường Đồng Khởi, Quận 1, Thành phố Hồ Chí Minh.
             </p>
           </Carousel.Caption>
         </Carousel.Item>

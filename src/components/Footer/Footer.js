@@ -9,8 +9,7 @@ function Footer() {
       <img src={Logo} alt="Logo" />
 
       <p>
-        In hac habitasse platea dictumst. Morbi ornare metus ex, viverra <br />
-        sollicitudin ex gravida et. Mauris aliquet vel nisl et efficitur.{" "}
+        Nhà hát Thành phố Hồ Chí Minh (thường được gọi ngắn gọn là Nhà hát Thành phố, tên chính thức là Nhà hát Giao hưởng - Nhạc, Vũ kịch Thành phố Hồ Chí Minh) là một nhà hát có mặt tiền hướng ra Công trường Lam Sơn và đường Đồng Khởi, Quận 1, Thành phố Hồ Chí Minh.
       </p>
 
       <ul className="footer__items">

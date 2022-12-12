@@ -16,9 +16,7 @@ function Contact() {
           <Carousel.Caption>
             <h1>SAIGON OPERA HOUSE</h1>
             <p>
-              In hac habitasse platea dictumst. Morbi ornare metus ex, viverra{" "}
-              <br />
-              sollicitudin ex gravida et. Mauris aliquet vel nisl et efficitur.{" "}
+              Nhà hát Thành phố Hồ Chí Minh (thường được gọi ngắn gọn là Nhà hát Thành phố, tên chính thức là Nhà hát Giao hưởng - Nhạc, Vũ kịch Thành phố Hồ Chí Minh) là một nhà hát có mặt tiền hướng ra Công trường Lam Sơn và đường Đồng Khởi, Quận 1, Thành phố Hồ Chí Minh.
             </p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -27,9 +25,7 @@ function Contact() {
           <Carousel.Caption>
             <h1>LIÊN HỆ VỚI NHÀ HÁT</h1>
             <p>
-              In hac habitasse platea dictumst. Morbi ornare metus ex, viverra{" "}
-              <br />
-              sollicitudin ex gravida et. Mauris aliquet vel nisl et efficitur.{" "}
+              Nhà hát Thành phố Hồ Chí Minh (thường được gọi ngắn gọn là Nhà hát Thành phố, tên chính thức là Nhà hát Giao hưởng - Nhạc, Vũ kịch Thành phố Hồ Chí Minh) là một nhà hát có mặt tiền hướng ra Công trường Lam Sơn và đường Đồng Khởi, Quận 1, Thành phố Hồ Chí Minh.
             </p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -38,9 +34,7 @@ function Contact() {
           <Carousel.Caption>
             <h1>SAIGON OPERA HOUSE</h1>
             <p>
-              In hac habitasse platea dictumst. Morbi ornare metus ex, viverra{" "}
-              <br />
-              sollicitudin ex gravida et. Mauris aliquet vel nisl et efficitur.
+              Nhà hát Thành phố Hồ Chí Minh (thường được gọi ngắn gọn là Nhà hát Thành phố, tên chính thức là Nhà hát Giao hưởng - Nhạc, Vũ kịch Thành phố Hồ Chí Minh) là một nhà hát có mặt tiền hướng ra Công trường Lam Sơn và đường Đồng Khởi, Quận 1, Thành phố Hồ Chí Minh.
             </p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -50,8 +44,7 @@ function Contact() {
         <div className="contact__details-info">
           <h1>Thông Tin Liên Hệ</h1>
           <p>
-            Quisque auctor est ac velit luctus fermentum. Nulla condimentum,
-            libero sed iaculis pellentesque.
+          Nhà hát Thành phố Hồ Chí Minh
           </p>
           <p>Số 7 Công Trường Lam Sơn, P. Bến Nghé, Quận 1, Tp. HCM</p>
           <p>0838237419</p>

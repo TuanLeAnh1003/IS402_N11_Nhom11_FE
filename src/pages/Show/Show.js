@@ -2,6 +2,11 @@ import React, { useEffect } from 'react'
 import Button from 'react-bootstrap/Button';
 import ShowItem from './ShowItem';
 import ShowImage from '../../assets/imgs/showImage.png'
+import bg2 from "../../assets/imgs/bg2.jfif";
+import bg3 from "../../assets/imgs/bg3.jfif";
+import bg4 from "../../assets/imgs/bg4.jfif";
+import bg5 from "../../assets/imgs/bg5.jfif";
+import bg6 from "../../assets/imgs/bg6.jfif";
 import Calendar from '../../assets/imgs/Calendar.png'
 import './Show.css'
 import Container from 'react-bootstrap/Container';
@@ -17,31 +22,31 @@ function Show() {
             date: "13/11/2022"
         },
         {
-            img: ShowImage,
+            img: bg2,
             name: "Miền ký ức",
             time: "20:00",
             date: "13/11/2022"
         },
         {
-            img: ShowImage,
+            img: bg3,
             name: "Miền ký ức",
             time: "20:00",
             date: "13/11/2022"
         },
         {
-            img: ShowImage,
+            img: bg4,
             name: "Miền ký ức",
             time: "20:00",
             date: "13/11/2022"
         },
         {
-            img: ShowImage,
+            img: bg5,
             name: "Miền ký ức",
             time: "20:00",
             date: "13/11/2022"
         },
         {
-            img: ShowImage,
+            img: bg6,
             name: "Miền ký ức",
             time: "20:00",
             date: "13/11/2022"
@@ -58,7 +63,7 @@ function Show() {
                 <div>
                     <div>
                         <h1>CHƯƠNG TRÌNH VÀ ĐẶT VÉ</h1>
-                        <p>In hac habitasse platea dictumst. Morbi ornare metus ex, viverra sollicitudin ex gravida et. Mauris aliquet vel nisl et efficitur. </p>
+                        <p>Nhà hát Thành phố Hồ Chí Minh là một nhà hát có mặt tiền hướng ra Công trường Lam Sơn và đường Đồng Khởi, Quận 1, Thành phố Hồ Chí Minh.</p>
                     </div>
                 </div>
             </div>

@@ -1,10 +1,32 @@
-.updateCoordinates {
-    margin-left: 100px;
-    margin-top: 50px;
-    color: #fff;
+.update_container {
+    display: flex;
+    align-items: center;
+    width: 100%;
 }
 
-.updateCoordinates > input {
+.update_sideBar {
+    width: 32%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 50px;
+}
+
+.update_sideBar > div > select {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.updateCoordinates {
+    margin-left: 100px;
+    color: #fff;
+    flex-direction: column;
+    padding: 50px 0;
+    height: 100vh;
+}
+
+.textarea {
     padding-left: 5px;
     width: 620px;
     height: 80px;
