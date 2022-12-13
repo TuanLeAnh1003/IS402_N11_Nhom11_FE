@@ -120,7 +120,7 @@ function Introduce() {
           QUY ĐỊNH CHUNG
         </li>
       </ul>
-      <div className="intro__line"></div>
+
       <div className="intro__content">{navigateIntro()}</div>
     </div>
   );

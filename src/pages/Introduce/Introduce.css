@@ -31,6 +31,8 @@
 .intro > .intro__content {
   width: 68%;
   padding: 0 5%;
+  border-left: #2D86BE 1px solid;
+
 }
 
 .intro > .intro__content > div > h1 {
@@ -50,6 +52,7 @@
   width: 70%;
   background-color: rgba(215, 206, 203, 0.39);
   padding: 30px;
+  border-radius: 4px;
 }
 
 .onclick {

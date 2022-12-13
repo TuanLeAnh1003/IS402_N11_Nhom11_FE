@@ -7,9 +7,13 @@ function News({ isReverse }) {
     <div className={isReverse ? "news reverse" : "news"}>
       <img src={img} alt="Nha hat thanh pho" />
       <div className="news__des">
-        <h3>Nhà hát Thành phố Hồ Chí Minh</h3>
+        <h3>Tổng quan về Nhà hát</h3>
         <p>
-        Nhà hát Thành phố Hồ Chí Minh (thường được gọi ngắn gọn là Nhà hát Thành phố, tên chính thức là Nhà hát Giao hưởng - Nhạc, Vũ kịch Thành phố Hồ Chí Minh) là một nhà hát có mặt tiền hướng ra Công trường Lam Sơn và đường Đồng Khởi, Quận 1, Thành phố Hồ Chí Minh.
+          Nhà hát Thành phố Hồ Chí Minh (gọi tắt là Nhà hát Thành phố HCM, Nhà
+          hát TPHCM) là một trong những công trình lâu đời theo kiến trúc châu
+          Âu tại Sài Gòn.Với 1800 ghế, không khí thoáng và hệ thống âm thanh,
+          ánh sáng hiện đại, Nhà hát là nơi tổ chức các chương trình biểu diễn
+          sân khấu chuyên nghiệp như kịch nói, cải lương, opera, múa bale,....{" "}
         </p>
       </div>
     </div>
