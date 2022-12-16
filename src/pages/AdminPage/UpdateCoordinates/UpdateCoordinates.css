@@ -26,6 +26,16 @@
     height: 100vh;
 }
 
+.textarea-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.textarea-wrap > button {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
 .textarea {
     padding-left: 5px;
     width: 620px;

@@ -1,0 +1,42 @@
+.map_screen {
+    position: relative;
+}
+
+.map_screen-popup {
+    position: absolute;
+    z-index: 9;
+    background-color: rgba(31,31,31,0.56);
+    top: 0;
+    right: 0;
+    margin: 30px 30px;
+    padding: 20px;
+    width: 400px;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.map_screen-popup--item {
+    width: 80%;
+    margin: 20px 10%;
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.map_screen-popup--item > p {
+    text-align: justify;
+}
+
+.map_screen-popup--item > button {
+    background-color: #181818;
+    padding: 2px 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.map_screen-popup--item > button > a {
+    color: #fff;
+}

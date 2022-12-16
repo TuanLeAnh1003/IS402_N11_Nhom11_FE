@@ -3,6 +3,7 @@ import './UpdateCoordinates.css'
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Swal from 'sweetalert2';
+import Modal from 'react-bootstrap/Modal';
 
 function UpdateCoordinates() {
   const [confirmed, setConfirmed] = useState(false)
@@ -14,6 +15,7 @@ function UpdateCoordinates() {
   const [selectedBodyComp, setSelectedBodyComp] = useState()
   const [selectedNode, setSelectedNode] = useState()
   const [selectedFace, setSelectedFace] = useState()
+  const [showDelete, setShowDelete] = useState(false)
 
   const handleClickConfirm = () => {
     if (object && layer) {
@@ -109,7 +111,25 @@ function UpdateCoordinates() {
                       </div>
                       {
                         selectedNode &&
-                        <textarea className="textarea" placeholder={`Coordinates node ${selectedNode}`} />
+                        <div className="textarea-wrap">
+                          <button onClick={() => setShowDelete(true)}>Xóa node</button>
+                          <p>Sửa node</p>
+                          <textarea className="textarea" placeholder={`Coordinates node ${selectedNode}`} />
+                          <Modal show={showDelete} onHide={() => setShowDelete(false)}>
+                            <Modal.Header closeButton>
+                              <Modal.Title>Xóa node</Modal.Title>
+                            </Modal.Header>
+                            <Modal.Body>Bạn có chắc là muốn xóa node này chứ?</Modal.Body>
+                            <Modal.Footer>
+                              <Button variant="secondary" onClick={() => setShowDelete(false)}>
+                                Đóng
+                              </Button>
+                              <Button variant="primary" onClick={() => setShowDelete(false)}>
+                                Lưu thay đổi
+                              </Button>
+                            </Modal.Footer>
+                          </Modal>
+                        </div>
                       }
                       <br />
                       <button className="updateCoordinates__button">Cập nhật</button>
@@ -138,7 +158,25 @@ function UpdateCoordinates() {
                           <input type="text" placeholder="Color" />
                         </div>
                         <span>Cylinder </span>{selectedCylinder}<span> gồm 1 Node là tâm</span>
-                        <textarea className="textarea" placeholder={`Coordinates node ở tâm`} />
+                        <div className="textarea-wrap">
+                          <button onClick={() => setShowDelete(true)}>Xóa node</button>
+                          <p>Sửa node</p>
+                          <textarea className="textarea" placeholder={`Coordinates node ở tâm`} />
+                          <Modal show={showDelete} onHide={() => setShowDelete(false)}>
+                            <Modal.Header closeButton>
+                              <Modal.Title>Xóa node</Modal.Title>
+                            </Modal.Header>
+                            <Modal.Body>Bạn có chắc là muốn xóa node này chứ?</Modal.Body>
+                            <Modal.Footer>
+                              <Button variant="secondary" onClick={() => setShowDelete(false)}>
+                                Đóng
+                              </Button>
+                              <Button variant="primary" onClick={() => setShowDelete(false)}>
+                                Lưu thay đổi
+                              </Button>
+                            </Modal.Footer>
+                          </Modal>
+                        </div>
                         <br />
                         <button className="updateCoordinates__button">Cập nhật</button>
                       </div>
@@ -177,7 +215,25 @@ function UpdateCoordinates() {
                           </div>
                           {
                             selectedNode &&
-                            <textarea className="textarea" placeholder={`Coordinates node ${selectedNode}`} />
+                            <div className="textarea-wrap">
+                              <button onClick={() => setShowDelete(true)}>Xóa node</button>
+                              <p>Sửa node</p>
+                              <textarea className="textarea" placeholder={`Coordinates node ${selectedNode}`} />
+                              <Modal show={showDelete} onHide={() => setShowDelete(false)}>
+                                <Modal.Header closeButton>
+                                  <Modal.Title>Xóa node</Modal.Title>
+                                </Modal.Header>
+                                <Modal.Body>Bạn có chắc là muốn xóa node này chứ?</Modal.Body>
+                                <Modal.Footer>
+                                  <Button variant="secondary" onClick={() => setShowDelete(false)}>
+                                    Đóng
+                                  </Button>
+                                  <Button variant="primary" onClick={() => setShowDelete(false)}>
+                                    Lưu thay đổi
+                                  </Button>
+                                </Modal.Footer>
+                              </Modal>
+                            </div>
                           }
                           <br />
                           <button className="updateCoordinates__button">Cập nhật</button>
@@ -234,7 +290,25 @@ function UpdateCoordinates() {
                                 </div>
                                 {
                                   selectedNode &&
-                                  <textarea className="textarea" placeholder={`Coordinates node ${selectedNode}`} />
+                                  <div className="textarea-wrap">
+                                    <button onClick={() => setShowDelete(true)}>Xóa node</button>
+                                    <p>Sửa node</p>
+                                    <textarea className="textarea" placeholder={`Coordinates node ${selectedNode}`} />
+                                    <Modal show={showDelete} onHide={() => setShowDelete(false)}>
+                                      <Modal.Header closeButton>
+                                        <Modal.Title>Xóa node</Modal.Title>
+                                      </Modal.Header>
+                                      <Modal.Body>Bạn có chắc là muốn xóa node này chứ?</Modal.Body>
+                                      <Modal.Footer>
+                                        <Button variant="secondary" onClick={() => setShowDelete(false)}>
+                                          Đóng
+                                        </Button>
+                                        <Button variant="primary" onClick={() => setShowDelete(false)}>
+                                          Lưu thay đổi
+                                        </Button>
+                                      </Modal.Footer>
+                                    </Modal>
+                                  </div>
                                 }
                               </div>
                             }
